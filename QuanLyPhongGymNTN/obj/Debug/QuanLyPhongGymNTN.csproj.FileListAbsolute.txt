@@ -1,0 +1,65 @@
+D:\HK4\QuanLyPhongGymNTN\QuanLyPhongGymNTN\bin\Debug\QuanLyPhongGymNTN.exe.config
+D:\HK4\QuanLyPhongGymNTN\QuanLyPhongGymNTN\bin\Debug\QuanLyPhongGymNTN.exe
+D:\HK4\QuanLyPhongGymNTN\QuanLyPhongGymNTN\bin\Debug\QuanLyPhongGymNTN.pdb
+D:\HK4\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.csproj.AssemblyReference.cache
+D:\HK4\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.Properties.Resources.resources
+D:\HK4\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.csproj.GenerateResource.cache
+D:\HK4\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.csproj.CoreCompileInputs.cache
+D:\HK4\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.exe
+D:\HK4\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.pdb
+D:\HK4\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.Admin.frmQuanLyLichTap.resources
+D:\HK4\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.Admin.frmQuanLyTaiKhoan.resources
+D:\HK4\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.Admin.frmHeThongQuanLyAdmin.resources
+D:\HK4\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.KhachHang.frmHeThongQuanLyKhachHang.resources
+D:\HK4\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.Admin.frmQuanLyGoiTap.resources
+D:\HK4\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.Admin.frmQuanLyLoaiGoiTap.resources
+D:\HK4\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.Admin.frmQuanLyTheTap.resources
+D:\HK4\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.KhachHang.frmGoiTap.resources
+D:\HK4\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.KhachHang.frmTheTap.resources
+D:\HK4\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.Admin.frmQuanLyLoaiTaiKhoan.resources
+D:\HK4\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.KhachHang.frmLichTap.resources
+D:\HK4\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.Public.frmQuanLyThongTinCaNhan.resources
+D:\HK4\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.PT.frmHeThongQuanLyPT.resources
+D:\HK4\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.PT.frmXemLichTap.resources
+D:\HK4\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.Public.frmDangKy.resources
+D:\HK4\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.Public.frmDangNhap.resources
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\bin\Debug\QuanLyPhongGymNTN.exe.config
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\bin\Debug\QuanLyPhongGymNTN.exe
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\bin\Debug\QuanLyPhongGymNTN.pdb
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.csproj.AssemblyReference.cache
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.Admin.frmHeThongQuanLyAdmin.resources
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.Admin.frmQuanLyGoiTap.resources
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.Admin.frmQuanLyLichTap.resources
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.Admin.frmQuanLyLoaiGoiTap.resources
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.Admin.frmQuanLyLoaiTaiKhoan.resources
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.Admin.frmQuanLyMonTap.resources
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.Admin.frmQuanLyTaiKhoan.resources
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.Admin.frmQuanLyTheTap.resources
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.KhachHang.frmGoiTap.resources
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.KhachHang.frmHeThongQuanLyKhachHang.resources
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.KhachHang.frmLichSuGoiTap.resources
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.Public.frmQuanLyThongTinCaNhan.resources
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.KhachHang.frmTheTap.resources
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.Properties.Resources.resources
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.PT.frmHeThongQuanLyPT.resources
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.PT.frmXemLichTap.resources
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.Public.frmDangNhap.resources
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.KhachHang.frmLichTap.resources
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.csproj.GenerateResource.cache
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.csproj.CoreCompileInputs.cache
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.exe
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.pdb
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\bin\Debug\BUS.dll
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\bin\Debug\BUS.pdb
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.csproj.CopyComplete
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\bin\Debug\DTO.dll
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\bin\Debug\DAO.dll
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\bin\Debug\EntityFramework.dll
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\bin\Debug\DTO.pdb
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\bin\Debug\DAO.pdb
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\bin\Debug\DAO.dll.config
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\bin\Debug\EntityFramework.xml
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\bin\Debug\EntityFramework.SqlServer.dll
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\bin\Debug\EntityFramework.SqlServer.xml
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.KhachHang.frmDangKyGoiTap.resources
+D:\HK4\LT Win\QuanLyPhongGymNTN\QuanLyPhongGymNTN\obj\Debug\QuanLyPhongGymNTN.Public.frmDoiMatKhauSuperAdmin.resources

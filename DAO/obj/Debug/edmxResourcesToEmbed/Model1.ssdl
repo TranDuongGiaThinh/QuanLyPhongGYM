@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QuanLyPhongGymNTNModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="GOITAP">
+    <Key>
+      <PropertyRef Name="MAGOITAP" />
+    </Key>
+    <Property Name="MAGOITAP" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TENGOITAP" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="MAMONTAP" Type="int" Nullable="false" />
+    <Property Name="GIAGOITAP" Type="int" Nullable="false" />
+    <Property Name="GHICHU" Type="ntext" Nullable="false" />
+    <Property Name="XOA" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LICHSUGOITAP">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MATHETAP" Type="int" Nullable="false" />
+    <Property Name="MAGOITAP" Type="int" Nullable="false" />
+    <Property Name="MALOAIGOITAP" Type="int" Nullable="false" />
+    <Property Name="MAPT" Type="int" />
+    <Property Name="NGAYDANGKY" Type="datetime" Nullable="false" />
+    <Property Name="NGAYHETHAN" Type="datetime" Nullable="false" />
+    <Property Name="XOA" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LICHTAP">
+    <Key>
+      <PropertyRef Name="MATHETAP" />
+    </Key>
+    <Property Name="MATHETAP" Type="int" Nullable="false" />
+    <Property Name="THUHAI" Type="ntext" />
+    <Property Name="THUBA" Type="ntext" />
+    <Property Name="THUTU" Type="ntext" />
+    <Property Name="THUNAM" Type="ntext" />
+    <Property Name="THUSAU" Type="ntext" />
+    <Property Name="THUBAY" Type="ntext" />
+    <Property Name="CHUNHAT" Type="ntext" />
+    <Property Name="XOA" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LOAIGOITAP">
+    <Key>
+      <PropertyRef Name="MALOAIGOITAP" />
+    </Key>
+    <Property Name="MALOAIGOITAP" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TENLOAIGOITAP" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="THOIGIAN" Type="int" Nullable="false" />
+    <Property Name="XOA" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LOAITAIKHOAN">
+    <Key>
+      <PropertyRef Name="MALOAITAIKHOAN" />
+    </Key>
+    <Property Name="MALOAITAIKHOAN" Type="int" Nullable="false" />
+    <Property Name="TENLOAITAIKHOAN" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="MOTA" Type="ntext" Nullable="false" />
+    <Property Name="XOA" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MONTAP">
+    <Key>
+      <PropertyRef Name="MAMONTAP" />
+    </Key>
+    <Property Name="MAMONTAP" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TENMONTAP" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="GHICHU" Type="ntext" />
+    <Property Name="XOA" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TAIKHOAN">
+    <Key>
+      <PropertyRef Name="MATAIKHOAN" />
+    </Key>
+    <Property Name="MATAIKHOAN" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ANH" Type="ntext" />
+    <Property Name="MALOAITAIKHOAN" Type="int" Nullable="false" />
+    <Property Name="TENDANGNHAP" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="MATKHAU" Type="varchar(max)" Nullable="false" />
+    <Property Name="HOTEN" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="EMAIL" Type="varchar" MaxLength="50" />
+    <Property Name="DIACHI" Type="nvarchar" MaxLength="50" />
+    <Property Name="DIENTHOAI" Type="varchar" MaxLength="15" />
+    <Property Name="NGAYSINH" Type="datetime" />
+    <Property Name="GIOITINH" Type="bit" />
+    <Property Name="GHICHU" Type="ntext" />
+    <Property Name="KHOA" Type="bit" Nullable="false" />
+    <Property Name="XOA" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="THETAP">
+    <Key>
+      <PropertyRef Name="MATHETAP" />
+    </Key>
+    <Property Name="MATHETAP" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MAKHACHHANG" Type="int" Nullable="false" />
+    <Property Name="KHOA" Type="bit" Nullable="false" />
+    <Property Name="XOA" Type="bit" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_GOITAP_MONTAP">
+    <End Role="MONTAP" Type="Self.MONTAP" Multiplicity="1" />
+    <End Role="GOITAP" Type="Self.GOITAP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MONTAP">
+        <PropertyRef Name="MAMONTAP" />
+      </Principal>
+      <Dependent Role="GOITAP">
+        <PropertyRef Name="MAMONTAP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LICHSUGOITAP_GOITAP">
+    <End Role="GOITAP" Type="Self.GOITAP" Multiplicity="1" />
+    <End Role="LICHSUGOITAP" Type="Self.LICHSUGOITAP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GOITAP">
+        <PropertyRef Name="MAGOITAP" />
+      </Principal>
+      <Dependent Role="LICHSUGOITAP">
+        <PropertyRef Name="MAGOITAP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LICHSUGOITAP_LOAIGOITAP">
+    <End Role="LOAIGOITAP" Type="Self.LOAIGOITAP" Multiplicity="1" />
+    <End Role="LICHSUGOITAP" Type="Self.LICHSUGOITAP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LOAIGOITAP">
+        <PropertyRef Name="MALOAIGOITAP" />
+      </Principal>
+      <Dependent Role="LICHSUGOITAP">
+        <PropertyRef Name="MALOAIGOITAP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LICHSUGOITAP_TAIKHOAN">
+    <End Role="TAIKHOAN" Type="Self.TAIKHOAN" Multiplicity="0..1" />
+    <End Role="LICHSUGOITAP" Type="Self.LICHSUGOITAP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TAIKHOAN">
+        <PropertyRef Name="MATAIKHOAN" />
+      </Principal>
+      <Dependent Role="LICHSUGOITAP">
+        <PropertyRef Name="MAPT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LICHSUGOITAP_THETAP">
+    <End Role="THETAP" Type="Self.THETAP" Multiplicity="1" />
+    <End Role="LICHSUGOITAP" Type="Self.LICHSUGOITAP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="THETAP">
+        <PropertyRef Name="MATHETAP" />
+      </Principal>
+      <Dependent Role="LICHSUGOITAP">
+        <PropertyRef Name="MATHETAP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LICHTAP_THETAP">
+    <End Role="THETAP" Type="Self.THETAP" Multiplicity="1" />
+    <End Role="LICHTAP" Type="Self.LICHTAP" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="THETAP">
+        <PropertyRef Name="MATHETAP" />
+      </Principal>
+      <Dependent Role="LICHTAP">
+        <PropertyRef Name="MATHETAP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TAIKHOAN_LOAITAIKHOAN">
+    <End Role="LOAITAIKHOAN" Type="Self.LOAITAIKHOAN" Multiplicity="1" />
+    <End Role="TAIKHOAN" Type="Self.TAIKHOAN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LOAITAIKHOAN">
+        <PropertyRef Name="MALOAITAIKHOAN" />
+      </Principal>
+      <Dependent Role="TAIKHOAN">
+        <PropertyRef Name="MALOAITAIKHOAN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_THETAP_TAIKHOAN">
+    <End Role="TAIKHOAN" Type="Self.TAIKHOAN" Multiplicity="1" />
+    <End Role="THETAP" Type="Self.THETAP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TAIKHOAN">
+        <PropertyRef Name="MATAIKHOAN" />
+      </Principal>
+      <Dependent Role="THETAP">
+        <PropertyRef Name="MAKHACHHANG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QuanLyPhongGymNTNModelStoreContainer">
+    <EntitySet Name="GOITAP" EntityType="Self.GOITAP" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LICHSUGOITAP" EntityType="Self.LICHSUGOITAP" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LICHTAP" EntityType="Self.LICHTAP" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LOAIGOITAP" EntityType="Self.LOAIGOITAP" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LOAITAIKHOAN" EntityType="Self.LOAITAIKHOAN" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MONTAP" EntityType="Self.MONTAP" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TAIKHOAN" EntityType="Self.TAIKHOAN" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="THETAP" EntityType="Self.THETAP" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_GOITAP_MONTAP" Association="Self.FK_GOITAP_MONTAP">
+      <End Role="MONTAP" EntitySet="MONTAP" />
+      <End Role="GOITAP" EntitySet="GOITAP" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LICHSUGOITAP_GOITAP" Association="Self.FK_LICHSUGOITAP_GOITAP">
+      <End Role="GOITAP" EntitySet="GOITAP" />
+      <End Role="LICHSUGOITAP" EntitySet="LICHSUGOITAP" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LICHSUGOITAP_LOAIGOITAP" Association="Self.FK_LICHSUGOITAP_LOAIGOITAP">
+      <End Role="LOAIGOITAP" EntitySet="LOAIGOITAP" />
+      <End Role="LICHSUGOITAP" EntitySet="LICHSUGOITAP" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LICHSUGOITAP_TAIKHOAN" Association="Self.FK_LICHSUGOITAP_TAIKHOAN">
+      <End Role="TAIKHOAN" EntitySet="TAIKHOAN" />
+      <End Role="LICHSUGOITAP" EntitySet="LICHSUGOITAP" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LICHSUGOITAP_THETAP" Association="Self.FK_LICHSUGOITAP_THETAP">
+      <End Role="THETAP" EntitySet="THETAP" />
+      <End Role="LICHSUGOITAP" EntitySet="LICHSUGOITAP" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LICHTAP_THETAP" Association="Self.FK_LICHTAP_THETAP">
+      <End Role="THETAP" EntitySet="THETAP" />
+      <End Role="LICHTAP" EntitySet="LICHTAP" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TAIKHOAN_LOAITAIKHOAN" Association="Self.FK_TAIKHOAN_LOAITAIKHOAN">
+      <End Role="LOAITAIKHOAN" EntitySet="LOAITAIKHOAN" />
+      <End Role="TAIKHOAN" EntitySet="TAIKHOAN" />
+    </AssociationSet>
+    <AssociationSet Name="FK_THETAP_TAIKHOAN" Association="Self.FK_THETAP_TAIKHOAN">
+      <End Role="TAIKHOAN" EntitySet="TAIKHOAN" />
+      <End Role="THETAP" EntitySet="THETAP" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

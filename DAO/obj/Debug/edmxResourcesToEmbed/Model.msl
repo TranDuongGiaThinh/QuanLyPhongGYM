@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QuanLyPhongGymNTNModelStoreContainer" CdmEntityContainer="QuanLyPhongGymNTNEntities">
+    <EntitySetMapping Name="GOITAPs">
+      <EntityTypeMapping TypeName="QuanLyPhongGymNTNModel.GOITAP">
+        <MappingFragment StoreEntitySet="GOITAP">
+          <ScalarProperty Name="MAGOITAP" ColumnName="MAGOITAP" />
+          <ScalarProperty Name="TENGOITAP" ColumnName="TENGOITAP" />
+          <ScalarProperty Name="MAMONTAP" ColumnName="MAMONTAP" />
+          <ScalarProperty Name="GIAGOITAP" ColumnName="GIAGOITAP" />
+          <ScalarProperty Name="GHICHU" ColumnName="GHICHU" />
+          <ScalarProperty Name="XOA" ColumnName="XOA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LICHTAPs">
+      <EntityTypeMapping TypeName="QuanLyPhongGymNTNModel.LICHTAP">
+        <MappingFragment StoreEntitySet="LICHTAP">
+          <ScalarProperty Name="MATHETAP" ColumnName="MATHETAP" />
+          <ScalarProperty Name="THUHAI" ColumnName="THUHAI" />
+          <ScalarProperty Name="THUBA" ColumnName="THUBA" />
+          <ScalarProperty Name="THUTU" ColumnName="THUTU" />
+          <ScalarProperty Name="THUNAM" ColumnName="THUNAM" />
+          <ScalarProperty Name="THUSAU" ColumnName="THUSAU" />
+          <ScalarProperty Name="THUBAY" ColumnName="THUBAY" />
+          <ScalarProperty Name="CHUNHAT" ColumnName="CHUNHAT" />
+          <ScalarProperty Name="XOA" ColumnName="XOA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LOAIGOITAPs">
+      <EntityTypeMapping TypeName="QuanLyPhongGymNTNModel.LOAIGOITAP">
+        <MappingFragment StoreEntitySet="LOAIGOITAP">
+          <ScalarProperty Name="MALOAIGOITAP" ColumnName="MALOAIGOITAP" />
+          <ScalarProperty Name="TENLOAIGOITAP" ColumnName="TENLOAIGOITAP" />
+          <ScalarProperty Name="THOIGIAN" ColumnName="THOIGIAN" />
+          <ScalarProperty Name="XOA" ColumnName="XOA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LOAITAIKHOANs">
+      <EntityTypeMapping TypeName="QuanLyPhongGymNTNModel.LOAITAIKHOAN">
+        <MappingFragment StoreEntitySet="LOAITAIKHOAN">
+          <ScalarProperty Name="MALOAITAIKHOAN" ColumnName="MALOAITAIKHOAN" />
+          <ScalarProperty Name="TENLOAITAIKHOAN" ColumnName="TENLOAITAIKHOAN" />
+          <ScalarProperty Name="MOTA" ColumnName="MOTA" />
+          <ScalarProperty Name="XOA" ColumnName="XOA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MONTAPs">
+      <EntityTypeMapping TypeName="QuanLyPhongGymNTNModel.MONTAP">
+        <MappingFragment StoreEntitySet="MONTAP">
+          <ScalarProperty Name="MAMONTAP" ColumnName="MAMONTAP" />
+          <ScalarProperty Name="TENMONTAP" ColumnName="TENMONTAP" />
+          <ScalarProperty Name="GHICHU" ColumnName="GHICHU" />
+          <ScalarProperty Name="XOA" ColumnName="XOA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="QuanLyPhongGymNTNModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TAIKHOANs">
+      <EntityTypeMapping TypeName="QuanLyPhongGymNTNModel.TAIKHOAN">
+        <MappingFragment StoreEntitySet="TAIKHOAN">
+          <ScalarProperty Name="MATAIKHOAN" ColumnName="MATAIKHOAN" />
+          <ScalarProperty Name="ANH" ColumnName="ANH" />
+          <ScalarProperty Name="MALOAITAIKHOAN" ColumnName="MALOAITAIKHOAN" />
+          <ScalarProperty Name="TENDANGNHAP" ColumnName="TENDANGNHAP" />
+          <ScalarProperty Name="MATKHAU" ColumnName="MATKHAU" />
+          <ScalarProperty Name="HOTEN" ColumnName="HOTEN" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="DIACHI" ColumnName="DIACHI" />
+          <ScalarProperty Name="DIENTHOAI" ColumnName="DIENTHOAI" />
+          <ScalarProperty Name="NGAYSINH" ColumnName="NGAYSINH" />
+          <ScalarProperty Name="GIOITINH" ColumnName="GIOITINH" />
+          <ScalarProperty Name="GHICHU" ColumnName="GHICHU" />
+          <ScalarProperty Name="KHOA" ColumnName="KHOA" />
+          <ScalarProperty Name="XOA" ColumnName="XOA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="THETAPs">
+      <EntityTypeMapping TypeName="QuanLyPhongGymNTNModel.THETAP">
+        <MappingFragment StoreEntitySet="THETAP">
+          <ScalarProperty Name="MATHETAP" ColumnName="MATHETAP" />
+          <ScalarProperty Name="MAKHACHHANG" ColumnName="MAKHACHHANG" />
+          <ScalarProperty Name="KHOA" ColumnName="KHOA" />
+          <ScalarProperty Name="XOA" ColumnName="XOA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LICHSUGOITAPs">
+      <EntityTypeMapping TypeName="QuanLyPhongGymNTNModel.LICHSUGOITAP">
+        <MappingFragment StoreEntitySet="LICHSUGOITAP">
+          <ScalarProperty Name="MATHETAP" ColumnName="MATHETAP" />
+          <ScalarProperty Name="MAGOITAP" ColumnName="MAGOITAP" />
+          <ScalarProperty Name="MALOAIGOITAP" ColumnName="MALOAIGOITAP" />
+          <ScalarProperty Name="MAPT" ColumnName="MAPT" />
+          <ScalarProperty Name="NGAYDANGKY" ColumnName="NGAYDANGKY" />
+          <ScalarProperty Name="NGAYHETHAN" ColumnName="NGAYHETHAN" />
+          <ScalarProperty Name="XOA" ColumnName="XOA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

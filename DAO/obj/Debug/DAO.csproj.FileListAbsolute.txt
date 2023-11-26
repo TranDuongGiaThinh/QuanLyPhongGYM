@@ -1,0 +1,14 @@
+D:\HK4\LT Win\QuanLyPhongGymNTN\DAO\bin\Debug\DAO.dll.config
+D:\HK4\LT Win\QuanLyPhongGymNTN\DAO\bin\Debug\DAO.dll
+D:\HK4\LT Win\QuanLyPhongGymNTN\DAO\bin\Debug\DAO.pdb
+D:\HK4\LT Win\QuanLyPhongGymNTN\DAO\bin\Debug\DTO.dll
+D:\HK4\LT Win\QuanLyPhongGymNTN\DAO\bin\Debug\EntityFramework.dll
+D:\HK4\LT Win\QuanLyPhongGymNTN\DAO\bin\Debug\EntityFramework.SqlServer.dll
+D:\HK4\LT Win\QuanLyPhongGymNTN\DAO\bin\Debug\DTO.pdb
+D:\HK4\LT Win\QuanLyPhongGymNTN\DAO\bin\Debug\EntityFramework.xml
+D:\HK4\LT Win\QuanLyPhongGymNTN\DAO\bin\Debug\EntityFramework.SqlServer.xml
+D:\HK4\LT Win\QuanLyPhongGymNTN\DAO\obj\Debug\DAO.csproj.AssemblyReference.cache
+D:\HK4\LT Win\QuanLyPhongGymNTN\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+D:\HK4\LT Win\QuanLyPhongGymNTN\DAO\obj\Debug\DAO.csproj.CopyComplete
+D:\HK4\LT Win\QuanLyPhongGymNTN\DAO\obj\Debug\DAO.dll
+D:\HK4\LT Win\QuanLyPhongGymNTN\DAO\obj\Debug\DAO.pdb

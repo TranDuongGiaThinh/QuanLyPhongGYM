@@ -1,0 +1,14 @@
+D:\HK4\LT Win\QuanLyPhongGymNTN\BUS\bin\Debug\BUS.dll
+D:\HK4\LT Win\QuanLyPhongGymNTN\BUS\bin\Debug\BUS.pdb
+D:\HK4\LT Win\QuanLyPhongGymNTN\BUS\bin\Debug\DAO.dll
+D:\HK4\LT Win\QuanLyPhongGymNTN\BUS\bin\Debug\DTO.dll
+D:\HK4\LT Win\QuanLyPhongGymNTN\BUS\bin\Debug\EntityFramework.dll
+D:\HK4\LT Win\QuanLyPhongGymNTN\BUS\bin\Debug\DAO.pdb
+D:\HK4\LT Win\QuanLyPhongGymNTN\BUS\bin\Debug\DAO.dll.config
+D:\HK4\LT Win\QuanLyPhongGymNTN\BUS\bin\Debug\DTO.pdb
+D:\HK4\LT Win\QuanLyPhongGymNTN\BUS\bin\Debug\EntityFramework.xml
+D:\HK4\LT Win\QuanLyPhongGymNTN\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+D:\HK4\LT Win\QuanLyPhongGymNTN\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\HK4\LT Win\QuanLyPhongGymNTN\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\HK4\LT Win\QuanLyPhongGymNTN\BUS\obj\Debug\BUS.dll
+D:\HK4\LT Win\QuanLyPhongGymNTN\BUS\obj\Debug\BUS.pdb

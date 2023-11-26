@@ -1,0 +1,6 @@
+D:\HK4\LT Win\QuanLyPhongGymNTN\DTO\bin\Debug\DTO.dll
+D:\HK4\LT Win\QuanLyPhongGymNTN\DTO\bin\Debug\DTO.pdb
+D:\HK4\LT Win\QuanLyPhongGymNTN\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\HK4\LT Win\QuanLyPhongGymNTN\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\HK4\LT Win\QuanLyPhongGymNTN\DTO\obj\Debug\DTO.dll
+D:\HK4\LT Win\QuanLyPhongGymNTN\DTO\obj\Debug\DTO.pdb
